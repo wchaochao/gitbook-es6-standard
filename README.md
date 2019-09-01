@@ -8,7 +8,10 @@ ECMAScript2019语言规范，基于[ECMAScript5.1规范](http://book.wchaochao.c
 
 ## 目录
 
+* 约定
 * 术语
+* Symbol类型
+* 对象
 
 ## 推荐资料
 
