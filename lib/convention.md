@@ -74,7 +74,7 @@ SourceCharacter::
 ```
 LookaheadExample::
   n [lookahead ∉ { 1, 3, 5, 7, 9 }] DecimalDigits
-  DecimalDigit[lookahead ∉ DecimalDigit]
+  DecimalDigit [lookahead ∉ DecimalDigit]
 ```
 
 ### opt
@@ -83,7 +83,7 @@ LookaheadExample::
 
 ```
 VariableDeclaration:
-  BindingIdentifier Initializer()
+  BindingIdentifier Initializer(opt)
 
 // 等价于
 
@@ -190,7 +190,7 @@ StatementList_Return:
 
 ### 前缀[~parameters]
 
-左侧无参数时表达式不存在
+左侧无参数时表达式存在
 
 ```
 StatementList[Return]:
