@@ -11,7 +11,11 @@ ECMAScript2019语言规范，基于[ECMAScript5.1规范](http://book.wchaochao.c
 * 约定
 * 术语
 * Symbol类型
+
+### 对象行为篇
+
 * 对象
+* 普通对象
 
 ## 推荐资料
 
